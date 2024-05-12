@@ -24,7 +24,7 @@ io.on("connect", (socket) => {
     if (room == undefined) {
       socket.emit("created");
       socket.join(roomName);
-    } else if (room.size == 8) {
+    } else if (room.size == 1) {
       socket.emit("joined");
       socket.join(roomName);
     } else {
