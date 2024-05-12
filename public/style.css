@@ -20,11 +20,7 @@ body {
   padding: 10px 10px;
 }
 
-#video-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 
 #user-video {
   padding: 12px 12px;
