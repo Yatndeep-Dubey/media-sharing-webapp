@@ -22,19 +22,19 @@ body {
 
 #video-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  padding: 4px 4px;
 }
 
 #user-video {
   padding: 12px 12px;
-  height: 300px;
+  height: 50%;
   width: auto;
 }
 
 #peer-video {
   padding: 12px 12px;
-  height: 300px;
+  height: 50%;
   width: auto;
 }
 
@@ -45,27 +45,10 @@ body {
   justify-content: center;
 }
 
-.btn-group button {
-  background-color: #04aa6d; /* Green background */
-  border: 1px solid green; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
-}
 
-.btn-group input {
-  background-color: #04aa6d; /* Green background */
-  border: 1px solid green; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
-}
 
-.btn-group button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
-}
+
+
 
 /* Clear floats (clearfix hack) */
 .btn-group:after {
@@ -95,12 +78,8 @@ body {
 
 #uploaded {
   display: none;
-  text-align: center;
-  padding: 12px 0px;
 }
 
 #downloaded {
   display: none;
-  text-align: center;
-  padding: 12px 0px;
 }
